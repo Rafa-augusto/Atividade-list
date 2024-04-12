@@ -7,7 +7,7 @@ while True:
         continue
     else:
         while cont <= x:
-            y = float(input(f"digite a idade da pessoa {cont}: "))
+            y = int(input(f"digite a idade da pessoa {cont}: "))
             if y<=0:
                 print("idade inválida")
                 continue
